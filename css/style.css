@@ -14972,3 +14972,22 @@ body.noscroll {
     margin-top: 15px;
   }
 }
+.all-links__ul{
+
+  
+}
+.all-links a{
+  font-size: 20px !important;
+  color: #000;
+}
+.all-links li{
+  list-style: none!important;
+  padding-left: 25px;
+  position: relative;
+}
+.all-links__ul li::before{
+  display: block;
+  border-radius: 50%;
+  background-color: #FFD400;
+  box-shadow: 0 5px 0 #3C93D5;
+}
